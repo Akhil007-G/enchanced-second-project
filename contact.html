@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f0f0f0; margin: 0; }
+    nav { background: #34495e; display: flex; justify-content: center; gap: 30px; padding: 15px 0; }
+    nav a { color: white; text-decoration: none; font-weight: bold; transition: 0.3s; }
+    nav a:hover { color: #1abc9c; }
+    header { background: #2980b9; color: white; padding: 30px; text-align: center; }
+    form { background: white; max-width: 500px; margin: 40px auto; padding: 30px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    label { display: block; margin: 15px 0 5px; }
+    input, textarea { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    button { margin-top: 20px; padding: 10px 20px; background: #2980b9; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #1f6390; }
+    footer { text-align: center; background: #ddd; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="dry-merchen.html">Dry Products</a>
+    <a href="fresh-merchen.html">Fresh Products</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Contact Us</h1>
+    <p>Have questions or suggestions? Reach out!</p>
+  </header>
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <footer>
+    &copy; 2025 Online Merchandise | Built with ❤️ for testing
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Merchandise - Dry Section</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .card-content a {
+      text-decoration: none;
+      background-color: #3498db;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 6px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ddd;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="dry-merchen.html">Dry Products</a>
+    <a href="fresh-merchen.html">Fresh Products</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Online Merchandise</h1>
+    <p>Fresh and Dry Items at Your Fingertips</p>
+  </header>
+
+  <main>
+    <h2 style="text-align:center;">Shop by Category</h2>
+    <div class="product-grid">
+
+      <div class="card">
+        <img src="dry-fruits.jpg" alt="Dry Fruits">
+        <div class="card-content">
+          <h3>Dry Fruits</h3>
+          <a href="https://www.amazon.in/s?k=dry+fruits" target="_blank">Shop Now</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="fruits.jpg" alt="Fruits">
+        <div class="card-content">
+          <h3>Fresh Fruits</h3>
+          <a href="https://www.zeptonow.com/cn/vegetables-fruits/fruits" target="_blank">Shop Now</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1606788075761-1c59f4fbe9b1" alt="Vegetables">
+        <div class="card-content">
+          <h3>Vegetables</h3>
+          <a href="https://www.zeptonow.com/cn/vegetables-fruits/vegetables" target="_blank">Shop Now</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="cut fruits.jpeg" alt="Cut Fruits">
+        <div class="card-content">
+          <h3>Cut Fruits</h3>
+          <a href="https://www.swiggy.com/city/bangalore/cut-fruits-online" target="_blank">Shop Now</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    ⚠️ This is a test site without HTTPS certificates. For demo use only.
+  </footer>
+
+</body>
+</html>
